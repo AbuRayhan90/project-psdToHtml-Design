@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #999999;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  color: #373737;
+}
+
+.section_padding {
+  padding: 100px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="url"],
+textarea {
+  border: 1px solid #efefef;
+  padding: 10px 20px;
+}
+
+input[type="submit"],
+submit[type="submit"] {
+  border-radius: 2px;
+  padding: 11px 23px;
+}
+
+input[type="submit"],
+submit[type="submit"] {
+  border-radius: 2px;
+}
+
+.boxed_btn,
+input[type="submit"],
+submit[type="submit"] {
+  display: inline-block;
+  background: #ef476f;
+  padding: 10px 22px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  margin-top: 6px;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+
+.pt-80 {
+  padding: 80px 0;
+}
+.p-80 {
+  padding: 80px 0;
+}
+.p-50 {
+  padding: 50px 0;
+}
+.maimenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.maimenu li {
+  position: relative;
+  display: inline-block;
+}
+.maimenu li a {
+  display: block;
+  color: #888888;
+  padding: 17px 15px;
+  text-decoration: none;
+}
+.maimenu li a:hover {
+  color: #ef476f;
+}
+.dropdown_menu {
+  position: absolute;
+  width: 185px;
+  height: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  top: 106px;
+  z-index: 10;
+}
+.dropdown_menu li {
+  display: block;
+}
+.dropdown_menu li a {
+  display: block;
+  border-top: 1px solid #8a0808;
+  padding: 15px 24px;
+  background: #df7277;
+  color: #fff;
+  transition: 0.3s;
+  text-align: left;
+}
+.maimenu li:hover .dropdown_menu {
+  visibility: visible;
+  opacity: 1;
+  top: 56px;
+}
+.dropdown_menu li a:hover {
+  background: #fff;
+  color: red;
+}
+.header_area {
+  padding: 10px 0 0;
+  z-index: 9;
+  position: relative;
+}
+
+.website_checker {
+  margin-top: 45px;
+}
+
+.hero_area h1 {
+  color: #373737;
+  font-size: 40px;
+  margin-bottom: 35px;
+  padding: 25px 0px;
+}
+
+.hero_area {
+  border-bottom: 1px solid #cac3c3;
+}
+
+.hero_area p {
+  color: #373737;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.single_service_box {
+  border: 1px solid #f3f3f3;
+  padding: 30px 10px;
+  max-height: 300px;
+}
+
+.single_service_box:hover {
+  border: 1px solid #ef476f;
+}
+
+.single_service_box h3 {
+  padding: 25px 0;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.single_service_box:hover h3 {
+  color: #ef476f;
+}
+
+.single_service_box a {
+  color: #443f3f;
+}
+
+.single_service_box:hover a {
+  color: #ef476f;
+}
+
+.zmdi.zmdi-arrow-right,
+i.zmdi {
+  padding-left: 10px;
+  padding-top: 11px;
+}
+
+.gray_bg,
+.cta_area_bg {
+  background: #fbfbfb;
+}
+
+.carousel_bg_1 {
+  background: url("../img/phone.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel_bg_2 {
+  background: url("../img/phone.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel_bg_3 {
+  background: url("../img/phone.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel_bg_active {
+  background: #047a39;
+}
+
+.single_case_studies_carousel {
+  display: table;
+  height: 300px;
+  position: relative;
+  width: 92%;
+  border-radius: 5px;
+}
+
+.case_studies_wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 54px 12px;
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.9s;
+  background: #ef476f;
+  border-radius: 5px;
+}
+
+.case_studies_carousel.owl-carousel .owl-wrapper-outer {
+  overflow: inherit;
+}
+
+.section_padding.gray_bg.overflow-x-hidden {
+  overflow: hidden;
+}
+
+.section_padding .owl-theme .owl-controls .owl-page span {
+  margin-top: 50px;
+  width: 25px;
+  height: 3px;
+  background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+  background: #ef476f;
+}
+
+.owl-theme .owl-controls .owl-page span:hover {
+  background: #ef476f;
+}
+
+.single_case_studies_carousel:hover .case_studies_wrapper {
+  opacity: 1;
+  visibility: visible;
+}
+
+.case_studies_wrapper h3,
+.case_studies_wrapper h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.icon_content {
+  background: #fff;
+  color: #4a4141;
+  padding: 13px 20px;
+  border-radius: 50%;
+}
+
+.testimonial_carousel_content h2 {
+  font-size: 21px;
+  margin-bottom: 50px;
+}
+
+.testimonial_meta h4 {
+  color: black;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.card_titel {
+  padding: 70px 0px;
+}
+
+.boxed_btn_card {
+  display: inline-block;
+  background: #ef476f;
+  padding: 10px 28px;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.card-body h1 {
+  color: #ef476f;
+}
+
+.card-body {
+  border: 1px solid #ddd;
+}
+
+.card-body:hover {
+  border: 1px solid #ef476f;
+}
+
+.card-header {
+  background: #fff;
+  padding: 28px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body:hover .card-header {
+  border-bottom: 1px solid #ef476f;
+}
+
+.input_bg {
+  width: 69%;
+  background: #f6f6f6;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="url"],
+textarea {
+  border: 1px solid #fffbfb;
+  padding: 8px 20px;
+}
+
+.btn.btn-submit.text-light {
+  background: #ef476f;
+  font-size: 14px;
+}
+
+.logo_content a {
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  color: #ddd;
+}
+
+.logo_content a:hover {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  color: red;
+}
+
+.footer_content h5 {
+  margin: 0 0 15px;
+  font-weight: 400;
+  color: #373737;
+  font-size: 16px;
+}
+
+.footer_content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+}
+
+.footer_content ul a {
+  text-decoration: none;
+  color: #a6a3a3;
+}
+
+.social_area h4 {
+  padding: 30px 0 5px 0px;
+}
+
+.social_area ul li {
+  display: inline-block;
+  width: 32%;
+}
+
+.footer_content .social_area a {
+  color: #3c3434;
+}
+
+.footer_content .social_area a:hover {
+  color: #ef476f;
+}
+
+.zmdi.zmdi-arrow-right,
+i.zmdi {
+  padding-left: 0;
+  padding-top: 11px;
+}
+
+.footer_bg {
+  background: #f7f7f7;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  padding: 16px 0px 0px 0px;
+}

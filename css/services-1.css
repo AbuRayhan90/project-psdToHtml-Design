@@ -1,0 +1,121 @@
+.boxed_btn, input[type="submit"], submit[type="submit"] {
+	background: #06D6A0;
+
+}
+.single_service_box:hover {
+  border: 1px solid #06D6A0;
+}
+
+.single_service_box:hover h3, .single_service_box:hover a {
+  color: #06D6A0;
+}
+
+.cta_area_bg_1 {
+  background: url('../img/cta_Services_2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.cta_area_bg {
+  background: url('../img/cta_Services_v1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.cta_area {
+  display: table;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.cta_overly {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  z-index: 3;
+  position: relative;
+  padding: 35px 0;
+}
+
+.cta_area:after {
+  background: #073B4C;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+  z-index: -2;
+  position: absolute;
+  opacity: 0.6;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+.cta_overly h2 {
+  font-size: 32px;
+  padding-top: 23px;
+  color: #fff;
+}
+
+.cta_overly p {
+  font-size: 12px;
+  color: #fff;
+  margin-top: 28px;
+}
+
+.cta_area input[type="button"] {
+  font-size: 14px;
+  width: 150px;
+  height: 41px;
+  background: #06D6A0;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  margin-bottom: 22px;
+}
+
+.btn.btn-submit.text-light {
+  background: #06D6A0;
+}
+.content-section h1 {
+  color: #DCDCDC;
+  font-size: 70px;
+
+}
+.content-section h3 {
+  font-size: 20px;
+  margin-bottom: 26px;
+  margin-top: 22px;
+}
+.content-section p {
+  font-size: 15px;
+  line-height: 25px;
+}
+.content-section a {
+  text-decoration: none;
+  color: #605757;
+}
+.content-section .card:hover a {
+  color: #08D6A1;
+}
+.content-section .card{
+	border:1px solid #fff;
+}
+.cta_area_bg_services_1{
+  background: url('../img/cta_area_bg_services_1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.cta_area_bg_services_2{
+  background: url('../img/cta_area_bg_services_2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.card-body:hover {
+    border: 1px solid #06D6A0;
+}
+.footer_content .social_area a:hover {
+  color: #06D6A0;
+}

@@ -1,0 +1,211 @@
+.boxed_btn, input[type=submit], submit[type=submit] {
+  background: #06D6A0;
+}
+
+.cta_bg{
+	background: url('../img/Service_details.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.cta_section {
+  display: table;
+  width: 100%;
+  height: auto;
+}
+.cta_overly {
+  display: table-cell;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  color: #fff;
+	padding: 100px 0;
+}
+.cta_overly:after {
+	background: #2b62d2;
+	background:#073B4C;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+	opacity: 0.3;
+}
+.cta_section h2 {
+  font-size: 40px;
+  color: #fff;
+}
+.tile_gallery {
+  position: relative;
+  padding: 20px;
+}
+.img_1 {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.btn.btn-submit.text-light {
+	background: #06D6A0;
+	font-size: 14px;
+}
+
+.footer_content .social_area a:hover {
+	color: #06D6A0;
+}
+
+
+
+.img_bg_1{
+	background: url('../img/bag.png');
+	background-position: center;
+	background-size: cover;
+}
+.img_bg_2{
+	background: url('../img/chair.png');
+	background-position: center;
+	background-size: cover;
+}
+.img_bg_3{
+	background: url('../img/middle.png');
+	background-position: center;
+	background-size: cover;
+}
+
+.img_bg_4{
+	background: url('../img/watchs.png');
+	background-position: center;
+	background-size: cover;
+}
+.img_bg_5{
+	background: url('../img/flag.png');
+	background-position: center;
+	background-size: cover;
+}
+	.containerfull {
+		padding-top: 21px;
+	}
+.case_study_carousel .single_case_study_carousel{
+      color: #FFF;
+      text-align: center;
+			height:300px;
+			width:100%;
+  }
+
+	.single_case_study_carousel {
+	  display: table;
+	  height: 100%;
+	  width: 100%;
+	}
+	.case_study_carousel_wrapper {
+		position: relative;
+		display: table-cell;
+		vertical-align: middle;
+		z-index: 2;
+		transform: scale(.8);
+		visibility: hidden;
+		opacity: 0;
+		padding: 25px;
+	}
+	.case_study_carousel_wrapper:after {
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  content: "";
+	  z-index: -2;
+	  opacity: 0.9;
+	  background: #10D7A3;
+	  height: 100%;
+	}
+	.case_study_carousel_item:hover .case_study_carousel_wrapper{
+		visibility: visible;
+		opacity: 1;
+		transform: scale(1);
+	}
+	.case_study_carousel_wrapper h4 {
+	  font-size: 20px;
+	  margin-bottom: 3px;
+	}
+	.case_study_carousel_wrapper p {
+	  font-size: 15px;
+	}
+	.case_study_carousel_wrapper a {
+	  color: #fff;
+	}
+  .case_study_carousel.owl-theme .owl-controls {
+  	visibility: hidden;
+    display: none;
+  }
+  .card-body h1 {
+  	color: #10D7A3;
+  }
+  .card-body:hover .card-header {
+  	border-bottom: 1px solid #10D7A3;
+  }
+  .card-body:hover{
+  	border: 1px solid #10D7A3;
+  }
+  .boxed_btn_card {
+  	background: #10D7A3;
+  }
+  .cta_area_bg{
+  	background: url('../img/cta_img.png');
+  	background-position: center;
+  	background-size: cover;
+  }
+
+  .cta_area {
+    display: table;
+    width: 100%;
+    height: auto;
+  	position: relative;
+  	z-index: 2;
+    margin: 50px 0;
+  }
+  .cta_overly_2 {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    z-index: 3;
+    position: relative;
+
+
+  }
+  .cta_area:after {
+    background: #073B4C;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    z-index: -2;
+    position: absolute;
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  }
+  .cta_overly_2 h2 {
+  	font-size: 32px;
+  	padding-top: 23px;
+  	color: #fff;
+  }
+  .cta_overly_2 p {
+  	font-size: 12px;
+  	color: #fff;
+  	margin-top: 28px;
+  }
+  .cta_area input[type="button"] {
+  	font-size: 14px;
+  	width: 150px;
+  	height: 41px;
+  	background: #06D6A0;
+  	color: #fff;
+  	border-radius: 3px;
+  	border: none;
+  	margin-bottom: 22px;
+  }
+  .Pricing_area {
+  	margin: 50px 0;
+  }
